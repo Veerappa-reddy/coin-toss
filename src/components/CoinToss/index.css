@@ -1,0 +1,52 @@
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coinTossContainer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 20px;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.paragraph {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #475569;
+}
+.toss-coin-btn {
+  font-size: 8px;
+  color: #a35200;
+  background-color: #f9d423;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 400;
+  padding-left: 4px;
+  width: 50px;
+}
+.counts-container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 8px;
+  color: #475569;
+  width: 150px;
+  font-weight: 500;
+  margin-top: 7px;
+}
+.image {
+  width: 100px;
+  margin-bottom: 5px;
+}
